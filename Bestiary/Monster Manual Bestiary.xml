@@ -151,7 +151,7 @@
 		<action>
 			<name>Cold Breath (Recharge 6)</name>
 			<text>The yeti exhales a 30-foot cone of frigid air. Each creature in that area must make a DC 18 Constitution saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Cold Breath||10d8</attack>
+			<attack>Cold Breath|10d8</attack>
 		</action>
 	</monster>
 	<monster>
