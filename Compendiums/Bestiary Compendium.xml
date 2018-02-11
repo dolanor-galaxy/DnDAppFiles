@@ -2081,7 +2081,7 @@
 	<monster>
 		<name>Animated Table</name>
 		<size>L</size>
-		<type>construct, tales from the yawning portal</type>
+		<type>construct, Tales from the Yawning Portal</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>39 (6d10+6)</hp>
@@ -5824,7 +5824,7 @@
 	<monster>
 		<name>Centaur Mummy</name>
 		<size>L</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>lawful evil</alignment>
 		<ac>13 (natural armor)</ac>
 		<hp>85 (10d10+30)</hp>
@@ -6687,7 +6687,7 @@
 		<cha>18</cha>
 		<save>Con +5, Wis +7, Cha +6</save>
 		<resist>radiant</resist>
-		<immune>psychic; bludgeoning, piercing, and slashing from nonmagical weapons</immune>
+		<immune>psychic, bludgeoning, piercing, and slashing from nonmagical weapons</immune>
 		<senses>truesight 120 ft.</senses>
 		<passive>15</passive>
 		<languages>all, telepathy 120 ft.</languages>
@@ -7664,7 +7664,7 @@
 	<monster>
 		<name>Deathlock Wight</name>
 		<size>M</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>12 (15 with mage armor)</ac>
 		<hp>37 (5d8+15)</hp>
@@ -8953,7 +8953,7 @@
 	<monster>
 		<name>Dread Warrior</name>
 		<size>M</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>18 (chain mail, shield)</ac>
 		<hp>37 (5d8+15)</hp>
@@ -9556,8 +9556,9 @@
 		</trait>
 		<action>
 			<name>Club</name>
-			<text>Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1 d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.</text>
+			<text>Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.</text>
 			<attack>Club|2|1d4</attack>
+			<attack>Shillelagh|6|1d8+4</attack>
 		</action>
 		<action>
 			<name>Fey Charm</name>
@@ -9880,7 +9881,7 @@
 	<monster>
 		<name>Duergar Spy</name>
 		<size>M</size>
-		<type>humanoid (dwarf), tales from the yawning portal</type>
+		<type>humanoid (dwarf), Tales from the Yawning Portal</type>
 		<alignment>lawful evil</alignment>
 		<ac>15 (studded leather)</ac>
 		<hp>33 (6d8+6)</hp>
@@ -13273,7 +13274,7 @@
 	<monster>
 		<name>Giant Crayfish</name>
 		<size>L</size>
-		<type>beast, tales from the yawning portal</type>
+		<type>beast, Tales from the Yawning Portal</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>45 (7d10+7)</hp>
@@ -13558,7 +13559,7 @@
 	<monster>
 		<name>Giant Lightning Eel</name>
 		<size>L</size>
-		<type>beast, tales from the yawning portal</type>
+		<type>beast, Tales from the Yawning Portal</type>
 		<alignment>unaligned</alignment>
 		<ac>13</ac>
 		<hp>42 (5d10+15)</hp>
@@ -13953,7 +13954,7 @@
 	<monster>
 		<name>Giant Subterranean Lizard</name>
 		<size>H</size>
-		<type>beast, tales from the yawning portal</type>
+		<type>beast, Tales from the Yawning Portal</type>
 		<alignment>unaligned</alignment>
 		<ac>14 (natural armor)</ac>
 		<hp>66 (7d12+21)</hp>
@@ -15232,7 +15233,7 @@
 	<monster>
 		<name>Greater Zombie</name>
 		<size>M</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>97 (13d8+39)</hp>
@@ -15927,18 +15928,19 @@
 	<monster>
 		<name>Guard Drake</name>
 		<size>M</size>
-		<type>dragon, Volo's Guide, Volo's Guide</type>
+		<type>dragon, tyranny of dragons</type>
 		<alignment>unaligned</alignment>
 		<ac>14 (natural armor)</ac>
 		<hp>52 (7d8+21)</hp>
 		<speed>30 ft.</speed>
-		<str>16</str><dex>11</dex><con>16</con><int>4</int><wis>10</wis><cha>7</cha>
-		<save />
+		<str>16</str>
+		<dex>11</dex>
+		<con>16</con>
+		<int>4</int>
+		<wis>10</wis>
+		<cha>7</cha>
 		<skill>Perception +2</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
+		<resist>lightning</resist>
 		<senses>darkvision 60 ft.</senses>
 		<passive>12</passive>
 		<languages>understands Draconic but can't speak it</languages>
@@ -15949,15 +15951,14 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) piercing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
 			<attack>Bite|5|1d8+3</attack>
 		</action>
 		<action>
 			<name>Tail</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
 			<attack>Tail|5|1d6+3</attack>
 		</action>
-		<spells />
 	</monster>
 	<monster>
 		<name>Guardian Naga</name>
@@ -17664,7 +17665,7 @@
 		<wis>12</wis>
 		<cha>14</cha>
 		<skill>Deception +4, Insight +3, Persuasion +4, Stealth +5</skill>
-		<resist>cold; bludgeoning, piercing, and slashing from nonmagical/nonsilver weapons</resist>
+		<resist>cold, bludgeoning, piercing, and slashing from nonmagical/nonsilver weapons</resist>
 		<immune>fire, poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 120 ft.</senses>
@@ -18242,7 +18243,7 @@
 	<monster>
 		<name>Kalka-Kylla</name>
 		<size>L</size>
-		<type>monstrosity, tales from the yawning portal</type>
+		<type>monstrosity, Tales from the Yawning Portal</type>
 		<alignment>neutral</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>85 (10d10+30)</hp>
@@ -18288,7 +18289,7 @@
 	<monster>
 		<name>Kelpie</name>
 		<size>M</size>
-		<type>plant, tales from the yawning portal</type>
+		<type>plant, Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>14 (natural armor)</ac>
 		<hp>67 (9d8+27)</hp>
@@ -19911,7 +19912,7 @@
 		</trait>
 		<action>
 			<name>Touch</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the creature takes 3 (1d6) fire damage at the end of each of its turns.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a target takes an action to douse the fire, the target takes 3 (1d6) fire damage at the end of each of its turns.</text>
 			<attack>Touch|4|2d6</attack>
 		</action>
 	</monster>
@@ -19957,7 +19958,7 @@
 	<monster>
 		<name>Malformed Kraken</name>
 		<size>H</size>
-		<type>monstrosity, tales from the yawning portal</type>
+		<type>monstrosity, Tales from the Yawning Portal</type>
 		<alignment>chaotic evil</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>172 (15d12+75)</hp>
@@ -22218,7 +22219,7 @@
 	<monster>
 		<name>Nereid</name>
 		<size>M</size>
-		<type>fey, tales from the yawning portal</type>
+		<type>fey, Tales from the Yawning Portal</type>
 		<alignment>any chaotic alignment</alignment>
 		<ac>13</ac>
 		<hp>44 (8d8+8)</hp>
@@ -23076,7 +23077,7 @@
 	<monster>
 		<name>Ooze Master</name>
 		<size>H</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>lawful evil</alignment>
 		<ac>9 (natural armor)</ac>
 		<hp>138 (12d12+60)</hp>
@@ -24895,7 +24896,7 @@
 		<wis>10</wis>
 		<cha>10</cha>
 		<skill>Stealth +5</skill>
-		<resist>cold; fire; lightning; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>cold, fire, lightning, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 120 ft.</senses>
@@ -26238,8 +26239,7 @@
 		<action>
 			<name>Spear</name>
 			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</text>
-			<attack>Spear 1H|7|2d6+4+1d6</attack>
-			<attack>Spear 2H|7|2d8+4+1d6</attack>
+			<attack>Spear|7|2d6+4+1d6</attack>
 		</action>
 		<action>
 			<name>Tail</name>
@@ -26479,7 +26479,7 @@
 	<monster>
 		<name>Sea Lion</name>
 		<size>L</size>
-		<type>monstrosity, tales from the yawning portal</type>
+		<type>monstrosity, Tales from the Yawning Portal</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>90 (12d10+24)</hp>
@@ -26860,7 +26860,7 @@
 	<monster>
 		<name>Sharwyn Hucrele</name>
 		<size>M</size>
-		<type>humanoid (human), tales from the yawning portal</type>
+		<type>humanoid (human), Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>16 (Barkskin trait)</ac>
 		<hp>13 (2d8+4)</hp>
@@ -27184,7 +27184,7 @@
     <monster>
 		<name>Sir Braford</name>
 		<size>M</size>
-		<type>humanoid (human), tales from the yawning portal</type>
+		<type>humanoid (human), Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>18 (chain mail, shield)</ac>
 		<hp>19 (3d8+6)</hp>
@@ -27273,7 +27273,7 @@
     <monster>
 		<name>Siren</name>
 		<size>M</size>
-		<type>fey, tales from the yawning portal</type>
+		<type>fey, Tales from the Yawning Portal</type>
 		<alignment>chaotic good</alignment>
 		<ac>14</ac>
 		<hp>38 (7d8+7)</hp>
@@ -28601,11 +28601,6 @@
 			<name>Shapechanger</name>
 			<text>The fiend can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Without wings, the fiend loses its flying speed. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
 		</trait>
-        <action>
-            <name>Thunderous Stomp (Recharge 6)</name>
-            <text>The storm giant stomps the ground, triggering a thunderclap. All other creatures within 15 feet of the giant must succeed on a DC 17 Constitution saving throw or take 33 (6d10) thunder damage and be deafened until the start of the giant's next turn. On a successful save, a creature takes half as much damage and isn't deafened. The thunderclap can be heard out to a range of 1,200 feet.</text>
-            <attack>||6d10</attack>
-        </action>
 		<action>
 			<name>Claw (Fiend Form Only)</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
@@ -29263,7 +29258,7 @@
 	<monster>
 		<name>Tarul Var</name>
 		<size>M</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>105 (14d8+42)</hp>
@@ -29352,7 +29347,7 @@
 	<monster>
 		<name>Thayan Warrior</name>
 		<size>M</size>
-		<type>humanoid (human), tales from the yawning portal</type>
+		<type>humanoid (human), Tales from the Yawning Portal</type>
 		<alignment>any non-good alignment</alignment>
 		<ac>16 (chain shirt, shield)</ac>
 		<hp>52 (8d8+16)</hp>
@@ -29469,7 +29464,7 @@
 	<monster>
 		<name>Thorn Slinger</name>
 		<size>L</size>
-		<type>plant, tales from the yawning portal</type>
+		<type>plant, Tales from the Yawning Portal</type>
 		<alignment>unaligned</alignment>
 		<ac>11</ac>
 		<hp>32 (5d10+5)</hp>
@@ -31134,7 +31129,7 @@
 	<monster>
 		<name>Vampiric Mist</name>
 		<size>M</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>chaotic evil</alignment>
 		<ac>13</ac>
 		<hp>45 (6d8+18)</hp>
@@ -31952,7 +31947,7 @@
 		<int>5</int>
 		<wis>10</wis>
 		<cha>8</cha>
-		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>acid, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -32036,7 +32031,7 @@
 		<int>11</int>
 		<wis>10</wis>
 		<cha>10</cha>
-		<resist>fire; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>fire, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious</conditionImmune>
 		<senses>blindsight 30 ft.</senses>
@@ -32459,7 +32454,7 @@
 	<monster>
 		<name>White Maw</name>
 		<size>G</size>
-		<type>ooze, tales from the yawning portal</type>
+		<type>ooze, Tales from the Yawning Portal</type>
 		<alignment>chaotic neutral</alignment>
 		<ac>5
 </ac>
@@ -34753,7 +34748,7 @@
 	<monster>
 		<name>Yusdrayl</name>
 		<size>S</size>
-		<type>humanoid (kobold), tales from the yawning portal</type>
+		<type>humanoid (kobold), Tales from the Yawning Portal</type>
 		<alignment>lawful evil</alignment>
 		<ac>12 (15 with mage armor)</ac>
 		<hp>16 (3d6+6)</hp>
