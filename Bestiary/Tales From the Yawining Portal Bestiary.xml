@@ -3,7 +3,7 @@
     <monster>
 		<name>Animated Table</name>
 		<size>L</size>
-		<type>construct, tales from the yawning portal</type>
+		<type>construct, Tales from the Yawning Portal</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>39 (6d10+6)</hp>
@@ -50,7 +50,7 @@
 	<monster>
 		<name>Centaur Mummy</name>
 		<size>L</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>lawful evil</alignment>
 		<ac>13 (natural armor)</ac>
 		<hp>85 (10d10+30)</hp>
@@ -101,7 +101,7 @@
 	<monster>
 		<name>Deathlock Wight</name>
 		<size>M</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>12 (15 with mage armor)</ac>
 		<hp>37 (5d8+15)</hp>
@@ -157,7 +157,7 @@
 	<monster>
 		<name>Dread Warrior</name>
 		<size>M</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>18 (chain mail, shield)</ac>
 		<hp>37 (5d8+15)</hp>
@@ -205,7 +205,7 @@
 	<monster>
 		<name>Duergar Spy</name>
 		<size>M</size>
-		<type>humanoid (dwarf), tales from the yawning portal</type>
+		<type>humanoid (dwarf), Tales from the Yawning Portal</type>
 		<alignment>lawful evil</alignment>
 		<ac>15 (studded leather)</ac>
 		<hp>33 (6d8+6)</hp>
@@ -268,7 +268,7 @@
 	<monster>
 		<name>Giant Crayfish</name>
 		<size>L</size>
-		<type>beast, tales from the yawning portal</type>
+		<type>beast, Tales from the Yawning Portal</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>45 (7d10+7)</hp>
@@ -307,7 +307,7 @@
 	<monster>
 		<name>Giant Lightning Eel</name>
 		<size>L</size>
-		<type>beast, tales from the yawning portal</type>
+		<type>beast, Tales from the Yawning Portal</type>
 		<alignment>unaligned</alignment>
 		<ac>13</ac>
 		<hp>42 (5d10+15)</hp>
@@ -349,7 +349,7 @@
 	<monster>
 		<name>Giant Subterranean Lizard</name>
 		<size>H</size>
-		<type>beast, tales from the yawning portal</type>
+		<type>beast, Tales from the Yawning Portal</type>
 		<alignment>unaligned</alignment>
 		<ac>14 (natural armor)</ac>
 		<hp>66 (7d12+21)</hp>
@@ -395,7 +395,7 @@
 	<monster>
 		<name>Greater Zombie</name>
 		<size>M</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>97 (13d8+39)</hp>
@@ -442,7 +442,7 @@
 	<monster>
 		<name>Kalka-Kylla</name>
 		<size>L</size>
-		<type>monstrosity, tales from the yawning portal</type>
+		<type>monstrosity, Tales from the Yawning Portal</type>
 		<alignment>neutral</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>85 (10d10+30)</hp>
@@ -488,7 +488,7 @@
 	<monster>
 		<name>Kelpie</name>
 		<size>M</size>
-		<type>plant, tales from the yawning portal</type>
+		<type>plant, Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>14 (natural armor)</ac>
 		<hp>67 (9d8+27)</hp>
@@ -542,7 +542,7 @@
 	<monster>
 		<name>Malformed Kraken</name>
 		<size>H</size>
-		<type>monstrosity, tales from the yawning portal</type>
+		<type>monstrosity, Tales from the Yawning Portal</type>
 		<alignment>chaotic evil</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>172 (15d12+75)</hp>
@@ -597,7 +597,7 @@
 	<monster>
 		<name>Nereid</name>
 		<size>M</size>
-		<type>fey, tales from the yawning portal</type>
+		<type>fey, Tales from the Yawning Portal</type>
 		<alignment>any chaotic alignment</alignment>
 		<ac>13</ac>
 		<hp>44 (8d8+8)</hp>
@@ -655,7 +655,7 @@
 	<monster>
 		<name>Ooze Master</name>
 		<size>H</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>lawful evil</alignment>
 		<ac>9 (natural armor)</ac>
 		<hp>138 (12d12+60)</hp>
@@ -723,7 +723,7 @@
 	<monster>
 		<name>Sea Lion</name>
 		<size>L</size>
-		<type>monstrosity, tales from the yawning portal</type>
+		<type>monstrosity, Tales from the Yawning Portal</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>90 (12d10+24)</hp>
@@ -779,7 +779,7 @@
 	<monster>
 		<name>Sharwyn Hucrele</name>
 		<size>M</size>
-		<type>humanoid (human), tales from the yawning portal</type>
+		<type>humanoid (human), Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>16 (Barkskin trait)</ac>
 		<hp>13 (2d8+4)</hp>
@@ -830,7 +830,7 @@
 	<monster>
 		<name>Sir Braford</name>
 		<size>M</size>
-		<type>humanoid (human), tales from the yawning portal</type>
+		<type>humanoid (human), Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>18 (chain mail, shield)</ac>
 		<hp>19 (3d8+6)</hp>
@@ -878,7 +878,7 @@
 	<monster>
 		<name>Siren</name>
 		<size>M</size>
-		<type>fey, tales from the yawning portal</type>
+		<type>fey, Tales from the Yawning Portal</type>
 		<alignment>chaotic good</alignment>
 		<ac>14</ac>
 		<hp>38 (7d8+7)</hp>
@@ -926,7 +926,7 @@
 	<monster>
 		<name>Tarul Var</name>
 		<size>M</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>105 (14d8+42)</hp>
@@ -1015,7 +1015,7 @@
 	<monster>
 		<name>Thayan Warrior</name>
 		<size>M</size>
-		<type>humanoid (human), tales from the yawning portal</type>
+		<type>humanoid (human), Tales from the Yawning Portal</type>
 		<alignment>any non-good alignment</alignment>
 		<ac>16 (chain shirt, shield)</ac>
 		<hp>52 (8d8+16)</hp>
@@ -1064,7 +1064,7 @@
 	<monster>
 		<name>Thorn Slinger</name>
 		<size>L</size>
-		<type>plant, tales from the yawning portal</type>
+		<type>plant, Tales from the Yawning Portal</type>
 		<alignment>unaligned</alignment>
 		<ac>11</ac>
 		<hp>32 (5d10+5)</hp>
@@ -1103,7 +1103,7 @@
 	<monster>
 		<name>Vampiric Mist</name>
 		<size>M</size>
-		<type>undead, tales from the yawning portal</type>
+		<type>undead, Tales from the Yawning Portal</type>
 		<alignment>chaotic evil</alignment>
 		<ac>13</ac>
 		<hp>45 (6d8+18)</hp>
@@ -1153,7 +1153,7 @@
 	<monster>
 		<name>White Maw</name>
 		<size>G</size>
-		<type>ooze, tales from the yawning portal</type>
+		<type>ooze, Tales from the Yawning Portal</type>
 		<alignment>chaotic neutral</alignment>
 		<ac>5
 </ac>
@@ -1206,7 +1206,7 @@
 	<monster>
 		<name>Yusdrayl</name>
 		<size>S</size>
-		<type>humanoid (kobold), tales from the yawning portal</type>
+		<type>humanoid (kobold), Tales from the Yawning Portal</type>
 		<alignment>lawful evil</alignment>
 		<ac>12 (15 with mage armor)</ac>
 		<hp>16 (3d6+6)</hp>
