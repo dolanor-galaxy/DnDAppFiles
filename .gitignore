@@ -8,4 +8,4 @@ desktop.ini
 .idea/
 
 # My Publish Script
-publish.sh
+publish*
