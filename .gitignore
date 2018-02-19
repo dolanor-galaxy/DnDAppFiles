@@ -6,3 +6,6 @@ desktop.ini
 
 # Editor meta-files
 .idea/
+
+# My Publish Script
+publish.sh
