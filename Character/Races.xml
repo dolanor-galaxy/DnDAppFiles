@@ -75,6 +75,124 @@
 			<text>You have proficiency with rapiers, shortswords, and hand crossbows.</text>
 		</trait>
 	</race>
+	<race name="Elf (Eladrin)" source="MTF">
+		<name>Elf (Eladrin)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<ability>Dex 2, Cha 1</ability>
+		<proficiency>Perception</proficiency>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Keen Senses</name>
+			<text>You have proficiency in the Perception skill.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
+		</trait>
+		<trait>
+			<name>Elf Weapon Training</name>
+			<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
+		</trait>
+		<trait>
+			<name>Fey Step</name>
+			<text>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest.</text>
+			<text>When you reach 3rd level, your Fey Step gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Charisma modifier:</text>
+			<text />
+			<text>Autumn. Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be charmed by you for 1 minute, or until you or your companions deal any damage to it.</text>
+			<text />
+			<text>Winter. When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn.</text>
+			<text />
+			<text>Spring. When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choise that you can see within 30 feet of you.</text>
+			<text />
+			<text>Summer. Immediately after you use your Fey Step, each creature of your choise that you can see within 5 feet of you takes fire damage equal to your Charisma modifier (minimum of 1 damage).</text>
+		</trait>
+	</race>
+	<race name="Elf (High)" source="PHB">
+		<name>Elf (High)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<ability>Dex 2, Int 1</ability>
+		<proficiency>Perception</proficiency>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Keen Senses</name>
+			<text>You have proficiency in the Perception skill.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
+		</trait>
+		<trait>
+			<name>Elf Weapon Training</name>
+			<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
+		</trait>
+		<trait>
+			<name>Cantrip</name>
+			<text>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</text>
+		</trait>
+	</race>
+	<race name="Elf (Wood)" source="PHB">
+		<name>Elf (Wood)</name>
+		<size>M</size>
+		<speed>35</speed>
+		<ability>Dex 2, Wis 1</ability>
+		<proficiency>Perception</proficiency>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Keen Senses</name>
+			<text>You have proficiency in the Perception skill.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
+		</trait>
+		<trait>
+			<name>Elf Weapon Training</name>
+			<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
+		</trait>
+		<trait>
+			<name>Fleet of Foot</name>
+			<text>Your base walking speed increases to 35 feet.</text>
+		</trait>
+		<trait>
+			<name>Mask of the Wild</name>
+			<text>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</text>
+		</trait>
+	</race>
 	<race name="Gnome (Deep)" source="EE, SCAG">
 		<name>Gnome (Deep)</name>
 		<size>S</size>
@@ -139,41 +257,6 @@
 		<trait>
 			<name>Languages</name>
 			<text>You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.</text>
-		</trait>
-	</race>
-	<race name="Elf (Eladrin)" source="DMG">
-		<name>Elf (Eladrin)</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability>Dex 2, Int 1</ability>
-		<proficiency>Perception</proficiency>
-		<trait>
-			<name>Darkvision</name>
-			<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
-		</trait>
-		<trait>
-			<name>Keen Senses</name>
-			<text>You have proficiency in the Perception skill.</text>
-		</trait>
-		<trait>
-			<name>Fey Ancestry</name>
-			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
-		</trait>
-		<trait>
-			<name>Trance</name>
-			<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
-		</trait>
-		<trait>
-			<name>Elf Weapon Training</name>
-			<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
-		</trait>
-		<trait>
-			<name>Fey Step</name>
-			<text>You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest.</text>
 		</trait>
 	</race>
 	<race name="Genasi (Fire)" source="EE">
@@ -302,41 +385,6 @@
 		<trait>
 			<name>Languages</name>
 			<text>You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.</text>
-		</trait>
-	</race>
-	<race name="Elf (High)" source="PHB">
-		<name>Elf (High)</name>
-		<size>M</size>
-		<speed>30</speed>
-		<ability>Dex 2, Int 1</ability>
-		<proficiency>Perception</proficiency>
-		<trait>
-			<name>Darkvision</name>
-			<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
-		</trait>
-		<trait>
-			<name>Keen Senses</name>
-			<text>You have proficiency in the Perception skill.</text>
-		</trait>
-		<trait>
-			<name>Fey Ancestry</name>
-			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
-		</trait>
-		<trait>
-			<name>Trance</name>
-			<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
-		</trait>
-		<trait>
-			<name>Elf Weapon Training</name>
-			<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
-		</trait>
-		<trait>
-			<name>Cantrip</name>
-			<text>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</text>
 		</trait>
 	</race>
 	<race name="Dwarf (Hill)" source="PHB">
@@ -616,45 +664,6 @@
 		<trait>
 			<name>Languages</name>
 			<text>You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.</text>
-		</trait>
-	</race>
-	<race name="Elf (Wood)" source="PHB">
-		<name>Elf (Wood)</name>
-		<size>M</size>
-		<speed>35</speed>
-		<ability>Dex 2, Wis 1</ability>
-		<proficiency>Perception</proficiency>
-		<trait>
-			<name>Darkvision</name>
-			<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
-		</trait>
-		<trait>
-			<name>Keen Senses</name>
-			<text>You have proficiency in the Perception skill.</text>
-		</trait>
-		<trait>
-			<name>Fey Ancestry</name>
-			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
-		</trait>
-		<trait>
-			<name>Trance</name>
-			<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
-		</trait>
-		<trait>
-			<name>Languages</name>
-			<text>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
-		</trait>
-		<trait>
-			<name>Elf Weapon Training</name>
-			<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
-		</trait>
-		<trait>
-			<name>Fleet of Foot</name>
-			<text>Your base walking speed increases to 35 feet.</text>
-		</trait>
-		<trait>
-			<name>Mask of the Wild</name>
-			<text>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</text>
 		</trait>
 	</race>
 	<race name="Dwarf (Duergar)" source="SCAG">
