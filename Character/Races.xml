@@ -276,7 +276,7 @@
 			<text>Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</text>
 		</trait>
 	</race>
-	<race name="Gnome (Deep)" source="EE, SCAG">
+	<race name="Gnome (Deep)" source="EE, SCAG, MTF">
 		<name>Gnome (Deep)</name>
 		<size>S</size>
 		<speed>25</speed>
