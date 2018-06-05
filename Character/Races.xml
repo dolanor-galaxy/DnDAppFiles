@@ -811,6 +811,30 @@
 			<text>You can speak, read, and write Common and Gith.</text>
 		</trait>
 	</race>
+	<race name="Gith (Githzerai)" source="MTF">
+		<name>Gith (Githzerai)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<ability>Int 1, Wis 2</ability>
+		<trait>
+			<name>Alignment</name>
+			<text>Githyanki tend toward lawful neutral. Their rigorous training in psychic abilities requires an implacable mental discipline.</text>
+		</trait>
+		<trait>
+			<name>Mental Discipline</name>
+			<text>You have advantage on saving throws against the charmed and frightened conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds.</text>
+		</trait>
+		<trait>
+			<name>Githzerai Psionics</name>
+			<text>You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</text>
+			<text>When you reach 3rd level, you can cast the Shield spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Detect Thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest.</text>
+			<text>Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common and Gith.</text>
+		</trait>
+	</race>
 	<race name="Half-Elf (Wood)" source="SCAG">
 		<name>Half-Elf (Wood Elf Descent)</name>
 		<size>M</size>
