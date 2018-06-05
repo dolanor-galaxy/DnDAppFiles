@@ -749,7 +749,7 @@
 			<text>You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.</text>
 		</trait>
 	</race>
-	<race name="Dwarf (Duergar)" source="SCAG">
+	<race name="Dwarf (Duergar)" source="MTF">
 		<name>Dwarf (Duergar)</name>
 		<size>M</size>
 		<speed>25</speed>
@@ -760,7 +760,7 @@
 		</trait>
 		<trait>
 			<name>Duergar Resilience</name>
-			<text>You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being charmed or paralyzed.</text>
+			<text>You have advantage on saving throws against illusions and against being charmed or paralyzed.</text>
 		</trait>
 		<trait>
 			<name>Dwarven Combat Training</name>
