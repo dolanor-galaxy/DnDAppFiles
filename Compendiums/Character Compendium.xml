@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <compendium version="5">
+
+
 	<background>
 		<name>Acolyte</name>
 		<proficiency>Insight, Religion</proficiency>
@@ -2253,7 +2255,7 @@
 		<text />
 		<text>Source: Player's Handbook, page 170</text>
 	</feat>
-	<feat name="Svirfneblin Magic" source="EE, SCAG">
+	<feat name="Svirfneblin Magic" source="EE, SCAG, MTF">
 		<name>Svirfneblin Magic</name>
 		<prerequisite>Gnome (deep gnome)</prerequisite>
 		<text>You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast nondetection on yourself at will, without needing a material component. You can also cast each of the following spells once with this ability: blindness/deafness, blur, and disguise self. You regain the ability to cast these spells when you finish a long rest.</text>
@@ -2261,6 +2263,7 @@
 		<text>Intelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels.</text>
 		<text />
 		<text>Source: Elemental Evil Player's Companion, page 7</text>
+		<text>Source: Mordenkainen's Tome of Foes, page 114</text>
 	</feat>
 	<feat name="Tavern Brawler" source="PHB">
 		<name>Tavern Brawler</name>
@@ -2352,8 +2355,8 @@
 	<trait>
 		<name>Necrotic Shroud</name>
 		<text>Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn.</text>
-		<text>Your transformation lasts for 1 minute or until you end it as a bonus action.. During it,  once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.</text>
-		<text>Once you use this trait, you can't use it again until you finish a long rest.</text>
+		<text>  Your transformation lasts for 1 minute or until you end it as a bonus action.. During it,  once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.</text>
+		<text>  Once you use this trait, you can't use it again until you finish a long rest.</text>
 	</trait>
     </race>
 <race name="Aasimar (Protector)" source="VOLO">
@@ -2479,7 +2482,7 @@
 			<text>You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.</text>
 		</trait>
 	</race>
-	<race name="Dwarf (Duergar)" source="SCAG">
+	<race name="Dwarf (Duergar)" source="MTF">
 		<name>Dwarf (Duergar)</name>
 		<size>M</size>
 		<speed>25</speed>
@@ -2490,7 +2493,7 @@
 		</trait>
 		<trait>
 			<name>Duergar Resilience</name>
-			<text>You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being charmed or paralyzed.</text>
+			<text>You have advantage on saving throws against illusions and against being charmed or paralyzed.</text>
 		</trait>
 		<trait>
 			<name>Dwarven Combat Training</name>
@@ -2624,11 +2627,11 @@
 			<text>You have proficiency with rapiers, shortswords, and hand crossbows.</text>
 		</trait>
 	</race>
-	<race name="Elf (Eladrin)" source="DMG">
+	<race name="Elf (Eladrin)" source="MTF">
 		<name>Elf (Eladrin)</name>
 		<size>M</size>
 		<speed>30</speed>
-		<ability>Dex 2, Int 1</ability>
+		<ability>Dex 2, Cha 1</ability>
 		<proficiency>Perception</proficiency>
 		<trait>
 			<name>Darkvision</name>
@@ -2656,7 +2659,16 @@
 		</trait>
 		<trait>
 			<name>Fey Step</name>
-			<text>You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest.</text>
+			<text>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest.</text>
+			<text>When you reach 3rd level, your Fey Step gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Charisma modifier:</text>
+			<text />
+			<text>Autumn. Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be charmed by you for 1 minute, or until you or your companions deal any damage to it.</text>
+			<text />
+			<text>Winter. When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn.</text>
+			<text />
+			<text>Spring. When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choise that you can see within 30 feet of you.</text>
+			<text />
+			<text>Summer. Immediately after you use your Fey Step, each creature of your choise that you can see within 5 feet of you takes fire damage equal to your Charisma modifier (minimum of 1 damage).</text>
 		</trait>
 	</race>
 	<race name="Elf (High)" source="PHB">
@@ -2692,6 +2704,89 @@
 		<trait>
 			<name>Cantrip</name>
 			<text>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</text>
+		</trait>
+	</race>
+	<race name="Elf (Sea)" source="MTF">
+		<name>Elf (Sea)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<ability>Dex 2, Con 1</ability>
+		<proficiency>Perception</proficiency>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Keen Senses</name>
+			<text>You have proficiency in the Perception skill.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common, Elvish and Aquan.</text>
+		</trait>
+		<trait>
+			<name>Elf Weapon Training</name>
+			<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
+		</trait>
+		<trait>
+			<name>Sea Elf Training</name>
+			<text>You have proficiency with the spear, trident, light crossbow, and net.</text>
+		</trait>
+		<trait>
+			<name>Child of the Sea</name>
+			<text>You have a swimming speed of 30 feet, and you can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Friend of the Sea</name>
+			<text>Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed.</text>
+		</trait>
+	</race>
+	<race name="Elf (Shadar-kai)" source="MTF">
+		<name>Elf (Shadar-kai)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<ability>Dex 2, Con 1</ability>
+		<proficiency>Perception</proficiency>
+		<trait>
+			<name>Darkvision</name>
+			<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Keen Senses</name>
+			<text>You have proficiency in the Perception skill.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+		</trait>
+		<trait>
+			<name>Trance</name>
+			<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
+		</trait>
+		<trait>
+			<name>Elf Weapon Training</name>
+			<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
+		</trait>
+		<trait>
+			<name>Necrotic Resistance</name>
+			<text>You have resistance to necrotic damage.</text>
+		</trait>
+		<trait>
+			<name>Blessing of the Raven Queen</name>
+			<text>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.</text>
+			<text>Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.</text>
 		</trait>
 	</race>
 	<race name="Elf (Wood)" source="PHB">
@@ -2844,7 +2939,55 @@
 			<text>You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.</text>
 		</trait>
 	</race>
-	<race name="Gnome (Deep)" source="EE, SCAG">
+	<race name="Gith (Githyanki)" source="MTF">
+		<name>Gith (Githyanki)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<ability>Int 1, Str 2</ability>
+		<trait>
+			<name>Alignment</name>
+			<text>Githyanki tend toward lawful evil. They are aggressive and arrogant, and they remain the faithful servants of their lich-queen, Vlaakith. Renegade githyanki tend toward chaos.</text>
+		</trait>
+		<trait>
+			<name>Martial Prodigy</name>
+			<text>You are proficient with light and medium armor and with shortswords, longswords, and greatswords.</text>
+		</trait>
+		<trait>
+			<name>Githyanki Psionics</name>
+			<text>You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</text>
+			<text>When you reach 3rd level, you can cast the Jump spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Misty Step spell once with this trait, and you regain the ability to do so when you finish a long rest.</text>
+			<text>Intelligence is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common and Gith.</text>
+		</trait>
+	</race>
+	<race name="Gith (Githzerai)" source="MTF">
+		<name>Gith (Githzerai)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<ability>Int 1, Wis 2</ability>
+		<trait>
+			<name>Alignment</name>
+			<text>Githyanki tend toward lawful neutral. Their rigorous training in psychic abilities requires an implacable mental discipline.</text>
+		</trait>
+		<trait>
+			<name>Mental Discipline</name>
+			<text>You have advantage on saving throws against the charmed and frightened conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds.</text>
+		</trait>
+		<trait>
+			<name>Githzerai Psionics</name>
+			<text>You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait.</text>
+			<text>When you reach 3rd level, you can cast the Shield spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Detect Thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest.</text>
+			<text>Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common and Gith.</text>
+		</trait>
+	</race>
+	<race name="Gnome (Deep)" source="EE, SCAG, MTF">
 		<name>Gnome (Deep)</name>
 		<size>S</size>
 		<speed>25</speed>

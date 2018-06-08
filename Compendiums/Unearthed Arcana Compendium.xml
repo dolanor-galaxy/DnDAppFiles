@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<compendium version="5">
-	
-  <feat UA="Feats for Skills" name="Acrobat">
+<compendium><feat UA="Feats for Skills" name="Acrobat">
 		<name>Acrobat (UA)</name>
 		<text>You become more nimble, gaining the following benefits:</text>
 		<text>• Increase your Dexterity score by 1, to a maximum of 20.</text>
